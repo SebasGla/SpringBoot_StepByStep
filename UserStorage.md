@@ -3,10 +3,7 @@
 ---
 
 ## 1. Create User entity
-
 <details>
-<summary><b>View Code: User.java</b></summary>
-
 ```java
 @Entity
 public class User {
@@ -26,7 +23,6 @@ public class User {
 ## 2. Create User interface extending CrudRepository
 
 <details>
-<summary><b>View Code</b></summary>
 
 ```java
 
@@ -48,7 +44,6 @@ public class User {
 ## 4. Create UserDetails Service class implementing UserDetailsService
 
 <details>
-<summary><b>View Code</b></summary>
 
 ```java
 
@@ -59,7 +54,6 @@ public class User {
 ## 5. Create a SecurityConfig configuration
 
 <details>
-<summary><b>View Code</b></summary>
 
 ```java
 
@@ -70,7 +64,6 @@ public class User {
 ## 6. Add a "/register" POST endpoint to the controller
 
 <details>
-<summary><b>View Code</b></summary>
 
 ```java
 
