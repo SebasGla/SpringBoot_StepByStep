@@ -3,7 +3,7 @@
 ## 1. Create User entity
 <details>
 <summary><b>View Code: User.java</b></summary>
-  '''java
+  ```java
   @Entity
 public class User {
     @Id
@@ -15,6 +15,7 @@ public class User {
     private String authority;
   //Getters and Setters
   }
+  </details>
 ## 2. Create User interface extending CrudRepository
 ## 3. Create User Adapter class implementing UserDetails
 ## 4. Create UserDetails Service class implementing UserDetailsService
